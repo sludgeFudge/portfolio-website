@@ -1,0 +1,157 @@
+body {
+	background: #FFF0A0;
+	font: 1rem "FiraGO", sans-serif;
+
+	background-image: url("images/cat-yarn_3x-offset.png");
+	background-attachment: fixed;
+}
+
+nav {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	width: 85%;
+	margin: 0 auto;
+	font-size: 1.5em;
+	background: #F76961;
+	padding: 10px 10px;
+
+	border-radius: 1em;
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #F76961;
+
+}
+
+nav ul li {
+	/*display: inline;*/
+	/*padding: 10px;*/
+	float: left;
+	border-radius: 1em;
+
+	a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		border-radius: 1em;
+
+	}
+
+	a:hover {
+		background-color: #F79792;
+
+	}
+
+}
+
+.active {
+	background: #F78C86;
+
+}
+
+main {
+	width: 65%;
+	margin: 0 auto;
+	padding: 5em;
+	background: #FFF0A0;
+	text-align: center;
+
+	p {
+		text-align: left;
+
+	}
+
+}
+
+main h1 {
+	margin: auto;
+	padding: 10px;
+
+}
+
+footer {
+	position: fixed;
+
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+	width: 100%;
+	margin: auto;
+
+	color: white;
+	background: #1C1C1C;
+	padding: 10px 20px;
+
+	a {
+		color: white;
+
+	}
+
+	a:hover {
+		background: grey;
+		color: black;
+
+	}
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+
+	.col2 {
+		text-align: right;
+		padding-right: 2em;
+	}
+
+}
+
+.shout {
+	font-weight: bold;
+	font-size: 150%;
+}
+
+table {
+	table-layout: fixed;
+	/*width: fit-content;*/
+
+	a:hover {
+		color: black;
+		background-color: #F79792;
+
+	}
+
+	tr>td {
+		vertical-align: top;
+		text-align: left;
+		padding: 1em;
+	}
+	
+}
+
+img.fit-pic {
+	width: 100%;
+
+}
+
+.profile {
+	width: 50%;
+
+	p {
+		float: left;
+		clear;
+
+	}
+
+	img {
+		float: right;
+	}
+
+}
