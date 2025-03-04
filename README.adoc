@@ -4,5 +4,5 @@
 
 Hi, this is simply a website for my portfolio.
 
-Access it here link:www.example.com[],
+Access it here link:https://sludgefudge.github.io/portfolio-website/index.html[],
 or view the HTML and CSS files.
